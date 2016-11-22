@@ -8,6 +8,13 @@
             "homepage": "http://www.danielanteloagra.com"
         }
     ],
+    "repositories":
+    [
+        {
+            "type": "vcs",
+            "url": "https://github.com/OlegBabakov/AddressableBundle.git"
+        }
+    ],
     "require": {
         "php": ">=5.4",
         "symfony/symfony": ">=2.8"

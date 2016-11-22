@@ -41,7 +41,7 @@ AddressMap.prototype.handleGoogleMapApiReady = function() {
     var mapOptions = {
         zoom: this.settings.defaultZoom,
         center: center,
-        scrollwheel: false,
+        scrollwheel: true,
         mapTypeId: google.maps.MapTypeId.TERRAIN
     };
     this.map = new google.maps.Map(this.mapCanvas, mapOptions);
